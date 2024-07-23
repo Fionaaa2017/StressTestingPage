@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <div>
+        <header>
+            <img src="https://www.rbcroyalbank.com/dvl/v1.0/assets/images/logos/rbc-logo-shield.svg"  height="100" alt="RBC Logo">
+        </header>
+        
+        <h1> Stress Testing </h1>
+    <hr/>
+        <h2> Senario Creation:</h2>
+        <ul>
+            <li>
+            <form>
+            <label>Interest Rate:</label>
+            <input class="inputbox" id="interest" placeholder="type in percentage"></input>
+            <input class="button" type="submit"/>
+            </form>
+            </li>
+            
+            </li>
+            <form>
+            <label>Inflation Rate:</label>
+            <input class="inputbox" id="inflation" placeholder="type in percentage"></input>
+            <input class="button" type="submit"/>
+            </form>
+        
+        </li>
+        <li>
+            <form>
+            <label>GDP:</label>
+            <input class="inputbox" id="GDP" placeholder="unit in billion CAD"></input>
+            <input class="button" type="submit"/>
+            </form>
+        </li>
+        
+        <li>
+            <form>
+            <label>Time Period:</label>
+            <select class="inputbox" id="timeperiod" placeholder="Time Period">
+                <option value="3 month">3 month</option>
+                <option value="3 month">6 month</option>
+                <option value="3 month">1 year</option>
+                <option value="3 month">2 years</option>
+            </select>
+            <input class="button" type="submit"/>
+            </form>
+        </li>
+        </ul>
+        <hr/>
+        <h2>Simulation Result:</h2>
+        <div class="result">
+            <p id="result_txt">Expected loss is:</p>
+            <p id="LossValue">Awaiting Calculation...</p>
+        </div>
+    </div>
+    <footer>copyright @2024</footer>
+    
+<script src="./index.js" type="text/javascript"></script>
+</body>
+</html>

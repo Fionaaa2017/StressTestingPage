@@ -1,0 +1,69 @@
+li{
+    list-style-type:none
+}
+
+header{
+    background: linear-gradient(to top, white 50%, #006AC3 50%)
+}
+img{
+    margin-left:20px;
+}
+h1{
+    text-align: center;
+}
+h2 {
+    color:#006AC3;
+    text-decoration-line: underline;
+  }
+ul,.result{
+margin-left: 25%;
+margin-right: 25%;
+background-color: #D6D6E7;
+}
+.result{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 40px;
+}
+label{
+    display: inline-block;
+    text-align: left;
+    width: 150px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+form{
+    display:inline-block;
+    
+}
+
+
+.inputbox,label,.result {
+    font-size: x-large;
+}
+::placeholder{
+    font-size:medium
+}
+.button{
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    font-size: 18px;
+}
+.inputbox{
+    border-color: #006AC3;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#result_txt{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+#LossValue{
+    color:brown;
+    padding-left:50px;
+    text-decoration-line: underline;
+}
+
+footer{
+    text-align: right;
+}
+
